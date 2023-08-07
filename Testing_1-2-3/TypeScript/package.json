@@ -4,7 +4,7 @@
   "description": "",
   "main": "dist/app.js",
   "scripts": {
-    "start": "tsc && node dist/solution.js",
+    "start": "tsc && node dist/solution.js && rm -r dist",
     "test": "jest"
   },
   "keywords": [],
